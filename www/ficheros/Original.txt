@@ -1,0 +1,3 @@
+pepe;pepito;jack.png
+jose;josito;canasta.png
+ana;anita;campo.png

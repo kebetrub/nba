@@ -1,0 +1,79 @@
+
+
+.head{
+    list-style-type: none;
+    text-align: center;
+    overflow: hidden;
+    height: 100px;
+    background-color: #930202;
+
+}
+
+
+.head2{
+    list-style-type: none;
+    text-align: right;
+    height: 10px;
+    background-color: #930202;
+
+}
+
+
+
+
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    height: 150px;
+    background-color: #333333;
+}
+
+li {
+    float: center;
+}
+
+li a {
+    display: block;
+    color: white;
+    font-family: arial;
+    text-align: center;
+    padding: 4px;
+}
+
+li a:hover {                            
+    background-color: #111111;
+}
+
+.centrar {
+    display:inline-block ;
+    text-align : center;
+    display: block;
+
+}
+h1 {
+    display:inline-block ;
+    text-align : center;
+    display: block; 
+}
+
+.login {
+    content: "";
+    border: 1px;    
+    opacity: 0.9;
+    top: 280;
+    left: 490;
+    bottom: 100;
+    right: 0;
+    position: absolute;
+    z-index: -1;   
+
+  }
+
+  .avatar {
+   
+    display: block;
+    margin: 0 auto; 
+
+}

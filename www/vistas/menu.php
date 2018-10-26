@@ -1,7 +1,7 @@
 
 <html>
 <head>
-                <link rel="stylesheet" type="text/css"  href="<?=ROOT . DT . VISTAS . DT . 'main.css' ?>">
+                <link rel="stylesheet" type="text/css"  href="<?=ROOT . DT . CSS . DT . 'main.css' ?>">
 
 
 
@@ -12,6 +12,8 @@
 
 <div class='head'>
         <h1> Chicago Bulls </h1> 
+        
+     
         <?php
         session_start();
         $avatar = ($_POST["avatar"]);
@@ -22,8 +24,8 @@
         
          <li > <a href='/'> Equipo </a> </li> 
          <li > <a href='/historia'> Historia </a> </li> 
-         <li > <a href='/jugadores'> Jugadores </a> </li> 
-         
+         <li > <a href='/jugadores'> Jugadores </a> </li>
+         <li > <a href='/registro'> registro </a> </li> 
 
 <?php
         if(isset($_SESSION['CookieLogin'])){     // Si el usuario esta logeado se muestra la imagen 

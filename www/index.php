@@ -87,7 +87,7 @@ array_shift($matchesParams);
 // getting the keys names
 preg_match_all('/\\:([a-zA-Z0-9\_\-]+)/', $route,$keys);
 
-//remove the first element sense is no necesary
+//remove the first element sense is no necesary 
 array_shift($keys);
 
 //Assisgn value to key 

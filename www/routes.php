@@ -42,6 +42,17 @@ return array(
             "page" => "uploadMethod.php"
         ),
         
+        "registro" => array(
+            "route" => "/registro",
+            "page" => "registro.php"
+        ),
+
+        "compruebaRegistro" => array(
+            "route" => "/cregistro",
+            "page" => "compruebaRegistro.php"
+        ),
+
+
     ),
     "error" => "error.php"
 );
